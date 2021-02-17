@@ -135,3 +135,7 @@ Manifest 文件中包含以下几个重要信息：
 ## 参考
 
 [资源管理器 Assets Manager 文档](https://docs.cocos.com/creator/manual/zh/advanced-topics/assets-manager.html)
+
+
+## 拷贝指令
+scp remote-assets.zip numas.ltd:/data/www/ORServer/games/test/

@@ -4,7 +4,7 @@
 root=$(cd "$(dirname "$0")";pwd)
 
 # generate manifest (change version first!).
-node version_generator.js -v 1.1.0 -u https://test.numas.ltd/remote-assets/ -s ./build/ios/assets -d assets/
+node version_generator.js -v 1.1.1 -u https://test.numas.ltd/remote-assets/ -s ./build/ios/assets -d assets/
 
 # remove old remote-assets
 if [ -d "./remote-assets/" ];then
